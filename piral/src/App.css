@@ -1,0 +1,121 @@
+.AppShell_main {
+	background-color: var(--mantine-colors-white);
+}
+
+.ResourceArrayInput_indented .m_87cf2631 {
+	color: #7f56d9 !important;
+}
+
+.ResourceArrayInput_indented .m_87cf2631:hover {
+	color: #7f56d9 !important;
+	background-color: #f9f5ff;
+}
+
+.med_title {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.sub_title {
+	font-weight: 400;
+	color: #475467;
+	font-size: 13px;
+}
+
+.appointment .mantine-Radio-label {
+	color: #000;
+	font-weight: 500;
+}
+
+.appointment .mantine-MultiSelect-label {
+	margin-bottom: 6px;
+	color: #000;
+}
+
+.ai_accordion .mantine-Accordion-label {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.customTabs_1 .mantine-Tabs-tab {
+	font-size: 14px;
+	color: #667085;
+	background: none;
+	margin-right: 10px;
+	font-weight: 600;
+	border-radius: 0 !important;
+	padding: var(
+		--mantine-spacing-lg
+	); /* Adjust this if you're not using Mantine theme variables */
+}
+
+.customTabs_1 button[data-active] {
+	color: #7f56d9;
+	background: none !important;
+	background-color: none !important;
+	border-bottom: 2px solid #7f56d9;
+	border-radius: 0 !important;
+	font-weight: 700;
+}
+
+._table_1uggo_85 tr:first-of-type td {
+	color: #475467 !important;
+}
+
+.loading {
+	position: relative;
+	top: 20px;
+	left: 0px;
+	display: flex;
+}
+
+.loading__dot {
+	animation: dot ease-in-out 1s infinite;
+	background-color: black;
+	display: inline-block;
+	height: 7px;
+	margin: 12px 5px 10px 7px;
+	width: 7px;
+	border-radius: 50%;
+}
+
+.loading__dot:nth-of-type(2) {
+	animation-delay: 0.2s;
+}
+
+.loading__dot:nth-of-type(3) {
+	animation-delay: 0.3s;
+}
+._table_1uggo_85 tr:first-of-type td {
+	color: #475467 !important;
+}
+
+.file-input-label {
+	display: block;
+	position: relative;
+	margin: 20px;
+	padding: 8px 30px;
+	background-color: #fff;
+	border: 1px solid #3673b6;
+	text-align: center;
+	cursor: pointer;
+	color: #3673b6;
+	font-weight: 600;
+	border-radius: 4px;
+}
+.file-input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.mantine-Accordion-label {
+	font-size: 18px;
+	font-weight: 600;
+	color: #000;
+}

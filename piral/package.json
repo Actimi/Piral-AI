@@ -1,0 +1,67 @@
+{
+	"name": "daiko-piral",
+	"version": "1.0.1",
+	"description": "",
+	"keywords": [
+		"piral"
+	],
+	"dependencies": {
+		"@emotion/styled": "^11.14.0",
+		"@mantine/charts": "^7.16.2",
+		"@mantine/core": "^7.16.2",
+		"@mantine/dates": "^7.16.2",
+		"@mantine/emotion": "^7.16.2",
+		"@mantine/form": "^7.16.2",
+		"@mantine/modals": "^7.16.2",
+		"@mantine/notifications": "^7.16.2",
+		"@medplum/fhirtypes": "^3.2.30",
+		"@medplum/react": "^3.2.30",
+		"@medplum/react-hooks": "^3.2.30",
+		"@tabler/icons-react": "^3.29.0",
+		"axios": "^1.7.9",
+		"clsx": "^2.1.1",
+		"date-fns": "^4.1.0",
+		"jspdf": "^2.5.2",
+		"piral": "1.7.3",
+		"piral-base": "1.7.3",
+		"piral-core": "1.7.3",
+		"postcss-preset-mantine": "^1.17.0",
+		"react": "^18",
+		"react-dom": "^18",
+		"react-query": "^3.39.3",
+		"react-router": "^6.29.0",
+		"react-router-dom": "^6.29.0",
+		"react-signature-canvas": "^1.0.7",
+		"uuid": "^11.0.5"
+	},
+	"scripts": {
+		"start": "piral debug --port 3000",
+		"build": "piral build",
+		"postinstall": "piral declaration"
+	},
+	"app": "./src/index.html",
+	"types": "dist/index.d.ts",
+	"importmap": {
+		"imports": {},
+		"inherit": [
+			"piral-base",
+			"piral-core",
+			"piral"
+		]
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.19.0",
+		"@types/node": "latest",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"@types/react-router": "^5.1.20",
+		"@types/react-router-dom": "^5.3.3",
+		"@vitejs/plugin-react": "^4.3.4",
+		"eslint": "^9.19.0",
+		"piral-cli": "1.7.3",
+		"piral-cli-vite": "1.3.0",
+		"prettier": "3.4.2",
+		"typescript": "^5.7.3",
+		"typescript-eslint": "^8.22.0"
+	}
+}
