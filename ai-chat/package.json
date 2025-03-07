@@ -28,7 +28,7 @@
 		"@tabler/icons-react": "^3.30.0"
 	},
 	"scripts": {
-		"start": "pilet debug",
+		"start": "pilet debug --port 3000",
 		"build": "pilet build",
 		"upgrade": "pilet upgrade",
 		"postinstall": "pilet declaration"
