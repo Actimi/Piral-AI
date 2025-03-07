@@ -42,7 +42,7 @@ export function setup(app: PiletApi) {
 		}
 		return <Space w={30} />;
 	}
-	app.registerPage("/test/*", () => (
+	app.registerPage("/ai/*", () => (
 		<MedplumProvider medplum={medplum}>
 			<MantineProvider theme={mantinetheme} stylesTransform={emotionTransform}>
 				<MantineEmotionProvider>
@@ -56,18 +56,18 @@ export function setup(app: PiletApi) {
 		<MedplumProvider medplum={medplum}>
 			<MantineProvider theme={mantinetheme} stylesTransform={emotionTransform}>
 				<MantineEmotionProvider>
-					<React.Fragment key={"Test"}>
+					<React.Fragment key={"AI"}>
 						<NavbarLink
-							key={"Test"}
-							to={"/test"}
+							key={"AI"}
+							to={"/ai"}
 							active={true}
 							onClick={(e) => {
 								e.preventDefault();
-								window.location.href = "/test";
+								window.location.href = "/ai";
 							}}
 						>
-							<NavLinkIcon to={"/test"} icon={<IconUser />} />
-							<span>{"Test"}</span>
+							<NavLinkIcon to={"/ai"} icon={<IconUser />} />
+							<span>{"AI"}</span>
 						</NavbarLink>
 					</React.Fragment>
 				</MantineEmotionProvider>
